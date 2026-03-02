@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "esnext"],
+    "module": "commonjs",
+    "target": "ES2022",
+    "strict": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "outDir": "dist",
+    "allowJs": true
+  },
+  "include": ["src/**/*"]
+}
