@@ -12,7 +12,11 @@ export const MyComposition: React.FC = () => {
   const { durationInFrames } = useVideoConfig();
 
   // Create seamless looping wave effect
-  const waveOffset = interpolate(frame % durationInFrames, [0, durationInFrames], [0, 400]);
+  const waveOffset = interpolate(
+    frame % durationInFrames,
+    [0, durationInFrames],
+    [0, 400],
+  );
 
   return (
     <AbsoluteFill
